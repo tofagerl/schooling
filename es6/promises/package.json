@@ -1,0 +1,23 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "Learning to use promises and generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tofagerl/schooling.git"
+  },
+  "author": "Tom Fagerland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tofagerl/schooling/issues"
+  },
+  "homepage": "https://github.com/tofagerl/schooling#readme",
+  "dependencies": {
+    "html-entities": "^1.2.0",
+    "node-fetch": "^1.4.1"
+  }
+}
