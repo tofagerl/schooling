@@ -1,0 +1,23 @@
+{
+  "plugins": [
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "__SERVER__": true,
+    "jQuery": true,
+    "$": true
+  },
+  "ecmaFeatures": {
+    "jsx": false,
+    "modules": true
+  },
+  "rules": {
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "quotes": 0
+  }
+}

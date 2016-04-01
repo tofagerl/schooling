@@ -1,0 +1,44 @@
+{
+  "root": true,
+  "indent": {
+    "value": "  ",
+    "FunctionExpression": 1,
+    "ArrayExpression": 1,
+    "ObjectExpression": 1
+  },
+  "plugins": [
+    "esformatter-semicolons",
+    "esformatter-quotes",
+    "esformatter-collapse-objects",
+    "esformatter-braces",
+    "esformatter-jsx"
+  ],
+  "quotes": {
+    "type": "single",
+    "avoidEscape": false
+  },
+  "jsx": {
+    "formatJSX": true,
+    "attrsOnSameLineAsTag": true,
+    "maxAttrsOnTag": 3,
+    "firstAttributeOnSameLine": true,
+    "alignWithFirstAttribute": false,
+    "htmlOptions": {
+      "unformatted": []
+    }
+  },
+  "lineBreak": {
+    "before": {
+      "ArrayExpressionClosing": 1
+    },
+    "after": {
+      "ArrayExpressionOpening": 1,
+      "ArrayExpressionComma": 1
+    }
+  },
+  "whiteSpace": {
+    "before": {
+      "PropertyName": 1
+    }
+  }
+}
